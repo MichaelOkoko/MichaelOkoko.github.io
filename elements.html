@@ -1,0 +1,185 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Michael Okoko Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+				<header id="header">
+					<a  class="logo">Sales Management Project</a>
+				</header>
+
+			<!-- Nav -->
+				<nav id="nav">
+					<ul class="links">
+						<li class="active"><a >Sales Management Project</a></li>
+						<li><a href="dashboard.html">Dashboard</a></li>
+						<li><a href="index.html">Projects</a></li>
+					
+						
+					</ul>
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/michael-okoko-/" class="icon brands alt fa-linkedin" target="_blank"><span class="label">linkedin</span></a></li>
+								<li><a href="https://www.kaggle.com/michaelokoko1" class="icon brands alt fa-kaggle" target="_blank"><span class="label">Kaggle</span></a></li>
+								<li><a href="https://github.com/MichaelOkoko" class="icon brands alt fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+					</ul>
+				</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									<h2> Sales Management Analysis Project<br />
+										<hr />	
+							
+								</header>
+
+								<!-- Text stuff -->
+								<div>
+
+									
+
+									<!-- Table -->
+									<h2>Business Request & User Stories</h2>
+
+									<p> The buisness request for this project is of a sales report for sales managers and sales representstives. Based on the request made, I defined the following user stories to ensure that the criteria's were maintained throughout the project. </p>
+									<div>
+
+									<ul class="actions special">
+										<li><a href="Report.html" class="button large" target="_blank">View Buisness Request</a></li>
+									</div>
+									
+									<div class="table-wrapper">
+										<table>
+											<thead>
+												<tr>
+													<th>No #</th>
+													<th>Role</th>
+													<th>I want (request/ demnad)</th>
+													<th>So that I (user value)</th>
+													<th>Acceptance Criteria</th>
+													
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td> 1</td>
+													<td>Sales Manager</td>
+													<td>To get a dashboard overview of online sales</td>
+													<td>Can follow better which customers and products sell the best</td>
+													<td>A power BI dashboard which updates data once a day</td>
+												</tr>
+												<tr>
+													<td> 2</td>
+													<td>Sales Representative</td>
+													<td>An overview of internet sales per customer</td>
+													<td>Can follow up customers that buy the most and who we can sell more to </td>
+													<td>A Power BI dashboard which allows me to filter data for each customer</td>
+												</tr>
+												<tr>
+													<td> 3</td>
+													<td> Sales Representative</td>
+													<td>An overview of online sales per Products</td>
+													<td>Can follow up on the product that sells the most </td>
+													<td>A Power BI dashboard which allows me to filter data for each product</td>
+												</tr>
+												<tr>
+													<td> 4</td>
+													<td>Sales Manager</td>
+													<td>A dashboard overview of online sales</td>
+													<td>Follow sales over time against budget</td>
+													<td>A Power BI dashboard with graphs and KPIs comparing against budget</td>
+												</tr>
+												
+											</tbody>
+											<tfoot>
+												
+											</tfoot>
+										</table>
+									</div>
+
+
+
+
+									<div>
+										<h2>Data Cleansing & Transformation (SQL)</h2>
+										<p>To develop the required data models for analysis and to meet the business needs outlined in the user stories, the following tables were extracted using SQL.</p>
+										<p>The sales budget data, provided in an Excel format, was later integrated into the data model. (I created the sales budget realistically by analyzing the annual sales trends).</p>
+										<p>The SQL statements below were used for cleansing and transforming the necessary data.</p>
+										
+									<h5>Dim_Calendar:</h5>
+									<a><img src="images/Calendar SQL.PNG" alt="" /></a>
+
+									<h5>Dim_Customers:</h5>
+									<a><img src="images/Customer SQL.PNG" alt="" /></a>
+
+									<h5>Dim_Products:</h5>
+									<a><img src="images/Product SQL.PNG" alt="" /></a>
+
+									<h5>FACT_InternetSales:</h5>
+									<a><img src="images/FACT_INTERNET SQL.PNG" alt="" /></a>
+									</div>
+									<hr />
+
+									<h2>Data Model</h2>
+									<p>Below is a screenshot of the data model after the cleansed and prepared tables were imported into Power BI.</p>
+									<p>This data model also demonstrates how FACT_SalesBudget is linked to FACT_InternetSales and other relevant dimension tables and their foreign keys.</p>
+									<a class="image fit"><img src="images/Data Models.PNG" alt="" /></a>
+
+									<hr />
+
+									<h2>Sales Management Dashboard</h2>
+									<p>The completed Sales Report dashboard includes three pages, each featuring three interactive visualizations. Page 1 presents a Sales Overview, Page 2 focuses on Customer Details, and Page 3 provides Product Details.</p>
+									<p><b>Click the repository button below to access the Power BI dashboard files and try it out. Click the image to view dashboard screenshots and description of key functionalities in the dashboard used to suffice the user story request!</b></p>
+									</ul>
+									
+									<ul class="actions special">
+										<li><a href="https://github.com/MichaelOkoko/Sales-Management-Project" class="button small" target="_blank">Github Repository Files</a></li>
+									</div>
+
+									
+									<a href="dashboard.html" class="image fit" target="_blank"><img src="images/Sales Overview.PNG" alt="" /></a>
+
+									
+
+
+									
+									</div>
+									
+
+									
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="https://www.linkedin.com/in/michael-okoko-/" class="icon brands alt fa-linkedin" target="_blank"><span class="label">linkedin</span></a></li>
+									<li><a href="https://www.kaggle.com/michaelokoko1" class="icon brands alt fa-kaggle" target="_blank"><span class="label">Kaggle</span></a></li>
+									<li><a href="https://github.com/MichaelOkoko" class="icon brands alt fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					
+
+			</div>
+
+		
+
+	</body>
+</html>
